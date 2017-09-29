@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/UserIcon"
+        android:contentDescription="@string/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:src="@drawable/face"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/game_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/GuessText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/user_guess"
+        android:inputType="number"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/triesText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/GuessButton"
+            android:text="@string/guess_button"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhiteText"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/ResetButton"
+            android:text="@string/reset_button"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhiteText"
+            android:backgroundTint="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+</LinearLayout>
