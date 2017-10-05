@@ -15,7 +15,8 @@
         android:layout_weight="2"
         android:textAlignment="center"
         android:src="@drawable/face"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
 
     <TextView
         android:id="@+id/textView"
@@ -47,7 +48,7 @@
         android:gravity="center"
         android:textSize="18sp"
         android:fontFamily="sans-serif"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="@color/colorAccent" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,7 +64,7 @@
             android:layout_weight="1"
             android:textSize="16sp"
             android:textColor="@color/colorWhiteText"
-            android:backgroundTint="@color/colorPrimary"/>
+            android:backgroundTint="@color/colorPrimary" />
 
         <Button
             android:id="@+id/ResetButton"

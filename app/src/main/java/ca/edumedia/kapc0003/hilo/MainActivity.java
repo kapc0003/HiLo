@@ -3,6 +3,7 @@
  *  Android App: To implement, test and deploy a guessing game that allows users to guess a number from 1 to 1000
  *
  * @author Alison Kapcala (kapc0003@algonquinlive.com)
+ * @version 1.0
  */
 
 package ca.edumedia.kapc0003.hilo;
